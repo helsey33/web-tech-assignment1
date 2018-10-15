@@ -1,0 +1,90 @@
+html,
+body {
+  height: 100%;
+  margin-top: 5em;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  color: black !important;
+  font-weight: bold;
+}
+.navbar {
+  border: 0;
+  font-family: Poppins;
+  background: #fff;
+}
+h1,
+h2,
+h2 {
+  font-family: Poppins;
+}
+.navi {
+  margin-top: -15px;
+}
+#showcase h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#showcase .showcase-right {
+  margin-top: 90px;
+}
+#testimonial {
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+#testimonial p {
+  font-size: 23px;
+  font-family: "Josefin Sans";
+  color: #000;
+}
+#testimonial p.customer {
+  font-size: 18px;
+  color: #666;
+}
+#info1 .info-right {
+  margin-top: 90px;
+}
+
+#cards {
+  height: 80vh;
+  width: 100%;
+  background: url("img/bg.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#cards .overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  perspective: 1000px;
+}
+.card {
+  height: 300px;
+  width: 200px;
+  background: #fff;
+  font-family: "Montserrat", "serif";
+  padding: 30px;
+  font-weight: 300;
+  text-align: center;
+  font-size: 15px;
+}
+#info2 {
+  margin: 120px 0 120px 0;
+}
+#contact {
+  background: url("img/image3.png") center no-repeat;
+  padding: 40px;
+  color: #fff;
+  border-top: #333 4px solid;
+  border-bottom: #333 3px solid;
+}
+footer {
+  padding: 20px;
+}
